@@ -4,6 +4,7 @@ metadata:
   name: dashboard
   labels:
     url: apmp.mf.platform
+    dockerhub: eyujy
 ---
 apiVersion: apps/v1
 kind: Deployment
