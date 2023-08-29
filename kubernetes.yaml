@@ -23,7 +23,7 @@ spec:
         app: operation-angular
     spec:
       imagePullSecrets:
-      - name: harbor-nutanix-dashboard
+      - name: dockerhub
       containers:
       - name: operation-angular
         image: mctdis/operation-angular:v1
