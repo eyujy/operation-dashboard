@@ -26,8 +26,8 @@ spec:
       - name: dockerhub
       containers:
       - name: operation-angular
-        image: mctdis/operation-angular:v1
-        #image: nginx
+        #image: mctdis/operation-angular:v1
+        image: nginx
         imagePullPolicy: Always
         resources:
           requests:
